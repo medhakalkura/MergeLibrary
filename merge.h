@@ -7,7 +7,7 @@
 using namespace std;
 
 //template<typename Key>
-vector<int> Merge(vector<int> arr1, vector<int> arr2, int a1, int a2);
+vector<int> Merge(vector<vector<int>> data);
 
 float GuessPositionFromPLR(int target_key, int index, map<int, PLRModel> models);
 
